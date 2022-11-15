@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Lapiz WebArt">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="UTF-8">
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
+   <title>Hello, world!</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: Poppins;
+      src: url(Font/Poppins-Regular.otf);
+    }
+    body {
+      font-family: 'Poppins';
+      
+  }
+    .verticalLine {
+    height: 15px;
+    border-right: 2px solid red;
+    position: relative;
+    margin-top: 15px;
+    }
+    #fixa{
+      position: absolute;
+      z-index: 10;
+      left:0;
+      right:0;
+      top:20px;
+      margin-left:auto;
+      margin-right: auto;
+     }
+
+  
+</style>
+<style>
+  .owl-nav .owl-next, .owl-nav .owl-prev {
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.owl-nav .owl-next {
+    right: 0;
+    display: flex;
+    margin-right: 2%;
+    font-size: 25px !important;
+}
+.owl-nav .owl-prev{
+    left: 0;
+    display: flex;
+    margin-left: 2%;
+    font-size: 25px !important;
+}
+.item{
+
+  width:100px;
+}
+</style>
+
+
+  <body>
+    
+
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
+          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img class="bi me-2" width="100" height="50" role="img" src="images/Flykiosk logo.svg"/>
+          </a>
+    
+          
+    
+          
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+               <img src="menu Icons/Visa icon.svg" alt="visa" style="width:20px;margin-top:5px; ">
+                <li><a href="#" class="nav-link px-2 link-dark">Visa</a></li>
+
+                <div class="verticalLine"  style="margin: 15px 10px 0px 5px;"></div>
+
+                <img src="menu Icons/Passport icon.svg" alt="s" style="width:20px;margin-top:5px;">
+                <li><a href="#" class="nav-link px-2 link-dark">passport service</a></li>
+
+                <div class="verticalLine" style="margin: 15px 10px 0px 5px;"></div>
+
+                <img src="menu Icons/Attestation Icon.svg" alt="s" style="width:20px;margin-top:5px">
+                <li><a href="#" class="nav-link px-2 link-dark">Attestation</a></li>
+
+                <div class="verticalLine" style="margin: 15px 10px 0px 5px;"></div>
+
+                <img src="menu Icons/Photos icon.svg" alt="s" style="width:20px;margin-top:5px">
+                <li ><a href="#" class="nav-link px-2 link-dark">Photos</a></li>
+
+                <li style="margin:5px 10px 0px 30px;"><img src="menu Icons/choos country.svg" alt="country" style="width:30px"></li>
+                <button class="" value="Track your visa" style="padding: 0px 20px 25px 10px;height: 15px;margin: 5px 10px 0px 10px;background:red;color:white">Track your visa</button>
+                <div class="verticalLine" style="margin: 5px 10px 0px 0px;height: 25px;
+                border-right: 2px solid black;
+                position: relative;
+               " ></div>
+                <li ><button href="#" class="btn btn-outline-dark btn-sm"  >Login</button></li>
+              </ul>
+            
+          
+        </header>
+      </div>
+
+
+
+      <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin-top: -25px;">
+
+ 
+    <!-- Indicators/dots -->
+    <ol class="carousel-indicators" style="bottom:10%">
+      <li  data-bs-target="#demo" data-bs-slide-to="0" class="active" style="width: 10px; height: 10px;border-radius: 100%;"></li>
+      <li  data-bs-target="#demo" data-bs-slide-to="1" style="width: 10px; height: 10px;border-radius: 100%;"></li>
+      <li  data-bs-target="#demo" data-bs-slide-to="2" style="width: 10px;height: 10px;border-radius: 100%;"></li>
+    </ol>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+     
+ <div id="fixa">
+  <div class="" style="width: 50rem;margin: 100px auto auto auto;text-align:center;color:white">
+    <h3 >Find visa information for all countries</h3>
+    <h6>Simplifying Travel around the world</h6>
+</div>
+
+<div class="row d-flex " style="width: 40rem;margin: 0px auto auto auto;text-align:center">
+
+  <div class="col-lg-4 col-md-4" style="background:white;padding:2px">
+    <select style="border: none;background: none;"><option>Where am I from</option></select>
+    <span class="verticalLine"  style="padding-left: 24px;"></span>
+  </div>
+  <div class="col-lg-5 col-md-5" style="background:white;padding:2px">
+    <select style="border: none;background: none;"><option>Where am I Going</option></select>
+
+  </div>
+  
+  <div class="col-lg-2 col-md-2 card" style="background:white;padding:2px;margin-left: 10px;border-radius: 2px;color:red">
+   <a>Apply visa</a>
+  </div>
+
+
+</div>
+
+
+
+
+  </div>
+      <div class="carousel-item active">
+        <img src="images/Slider 01.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Slider 01.jpg" alt="Chicago" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Slider 01.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    
+  </div>
+
+ 
+ <div style="background:whitesmoke;height:450px">
+  <!-- popular destinations-->
+  <section >
+    <div class="card" style="width: 60rem;margin: -70px auto auto auto;border-radius: 25px;">
+      <h6 style="width: 50rem;margin: 20px auto auto auto;text-align:center;">Popular Destinations </h6>
+      <div class="card-body">
+        <div class="owl-carousel owl-theme" style="
+        text-align: -webkit-center;
+    ">
+          <div class="item" >
+              <h4><img src="Icons/99_ Approval.svg" alt="image"  /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Customer.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Customer.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Customer.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+          </div>
+          <div class="item">
+              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h6 style="width: 60rem;margin: 40px auto auto auto;text-align:center;">Why Apply with Flykiosk.com? </h6>
+    <div class="row d-flex " style="width: 60rem;margin: 40px auto auto auto;">
+
+      <div class="col-lg-2 col-md-2" style="background:white;">
+        <div class="row d-flex " >
+          <div class="col-lg-3 col-md-3" style="background:white;width:auto">
+            <img src="Icons/Speed.svg">
+
+          </div>
+          <div class="col-lg-10 col-md-10" style="background:white;width:auto">
+         <span> Speed &</span><br>
+         <span>  Simplicity</span>
+            
+                      </div>
+        </div>
+        </div>
+&nbsp;
+        <div class="col-lg-3 col-md-3" style="background:white;">
+          <div class="row d-flex " >
+            <div class="col-lg-2 col-md-2" style="background:white;width:auto">
+            
+              <img src="Icons/99_ Approval.svg">
+            </div>
+            <div class="col-lg-10 col-md-10" style="background:white;width:auto">
+              99% Approval <br>History
+              
+                        </div>
+          </div>
+          </div>
+
+          &nbsp;
+          <div class="col-lg-3 col-md-3" style="background:white;">
+            <div class="row d-flex " >
+              <div class="col-lg-2 col-md-2" style="background:white;width:auto">
+              <img src="Icons/Customer.svg">
+    
+              </div>
+              <div class="col-lg-10 col-md-10" style="background:white;width:auto">
+                Customer <br>Support
+                
+                          </div>
+            </div>
+            </div>
+
+            &nbsp;
+            <div class="col-lg-3 col-md-3" style="background:white;">
+              <div class="row d-flex " >
+                <div class="col-lg-2 col-md-2" style="background:white;width:auto">
+                  <img src="Icons/Safe_Secure.svg">
+      
+                </div>
+                <div class="col-lg-10 col-md-10" style="background:white;width:auto">
+                  Safe &
+                  Secure
+                  
+                            </div>
+              </div>
+              </div>
+      
+      </div>
+  </section>
+  
+</div>
+
+<div style="background:white;" >
+
+
+      
+  <div class="row d-flex " style="width: 60rem;margin: 40px auto auto auto;" >
+ 
+    <div class="col-lg-7 col-md-7 ">
+      <h6 style="margin: auto 20% auto auto;text-align: center;">Visa process</h6>
+      <br>
+      <div class="row d-flex ">
+    <a href="#evisa"  class="col-lg-2 col-md-2 me-2 card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">E-visa</a>
+    <a href="#visaonarrival"  class="col-lg-2 col-md-2 me-2 card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">Visa on Arrival</a>
+    <a href="#stampingvisa"  class="col-lg-2 col-md-2 me-2 card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">Stamping Visa</a>
+    <a href="#scheghenvisa"  class="col-lg-2 col-md-2  card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">Scheghen Visa</a>
+       
+      <div id="evisa" class="collapse" style="margin: 20px auto auto -10px;text-align: center;">
+        <div class="row d-flex">
+
+        <div  class="col-lg-3 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger">step1</a>
+            <hr>
+          </div>
+        </div>
+      </div>
+      
+      <div  class="col-lg-3 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger">step2</a>
+            <hr>
+          </div>
+        </div>
+      </div>
+      
+      <div  class="col-lg-3 col-md-3 mb-2 ">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger">step3</a>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div  class="col-lg-3 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger">step4</a>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div  class="col-lg-3 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+             <br>  <br>
+            <a href="" class="btn btn-danger">step5</a>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div  class="col-lg-3 col-md-3 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger">step6</a>
+            <hr>
+          </div>
+       
+        </div>
+      </div>
+      <div  style="width: 60rem;margin: 40px auto auto auto;" >
+        <a href="" class="btn btn-danger">Apply now</a>
+        </div>
+    </div>
+    </div>
+    
+      <div id="visaonarrival" class="collapse" style="margin: 20px auto auto auto;text-align: center;">
+        <div  class="col-lg-12 col-md-12">   
+        <div class="card">
+          <div class="card-body">wwwwdfdfddd</div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+    
+  </div>
+  </div>
+  <!--<div class="col-lg-1 col-md-1 "  style="border-left: 1px solid grey;width:0px;height:450px;margin-top: 0px"> </div>-->
+
+  <div class="col-lg-4 col-md-4  " style="border-left:1px solid grey">
+    <h6 >Customer Service at its finest</h6>
+    <br>
+    <div class="row d-flex " >
+     
+        <div class="col-lg-11 col-md-11" >
+
+          <div class="row d-flex">
+            <div class="col-lg-2 col-md-2" ><img src="Icons/Customer.svg"></div>
+            <div class="col-lg-10 col-md-10" >
+
+              <h5 style="color:red">Excellent Service</h5>
+              <h6>Sure Name</h6>
+              <span>Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
+
+            </div>
+
+            </div>
+
+        </div>
+    
+        </div>
+        <hr>
+
+        <div class="row d-flex " >
+     
+          <div class="col-lg-11 col-md-11" >
+  
+            <div class="row d-flex">
+              <div class="col-lg-2 col-md-2" ><img src="Icons/Customer.svg"></div>
+              <div class="col-lg-10 col-md-10" >
+  
+                <h5 style="color:red">Excellent Service</h5>
+                <h6>Sure Name</h6>
+                <span>Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
+
+              </div>
+  
+              </div>
+  
+          </div>
+      
+          </div>
+          <hr>
+
+          <div class="row d-flex " >
+     
+            <div class="col-lg-11 col-md-11" >
+    
+              <div class="row d-flex">
+                <div class="col-lg-2 col-md-2" ><img src="Icons/Customer.svg"></div>
+                <div class="col-lg-10 col-md-10" >
+                  <h5 style="color:red">Excellent Service</h5>
+                  <h6>Sure Name</h6>
+                  <span>Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
+  
+                </div>
+    
+                </div>
+    
+            </div>
+        
+            </div>
+            
+            <div  style="margin: 40px auto auto auto;text-align: center;" >
+              <a href="" class="btn btn-danger">see all</a>
+              </div>
+        </div>
+             
+</div>
+
+
+
+</div>
+
+<div>
+  sadfeasf
+</div>
+
+
+<script>
+  $(document).ready(function(){
+	$(".visacollapse").click(function(){
+    
+		$('.collapse').collapse('hide');
+	});
+});
+</script>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom JS code after importing jquery and owl -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+     
+            slideBy:3,
+		        rewind:false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="11.0066mm" height="11.0066mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1100.66 1100.66"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#B2B3B3;stroke-width:17.64;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M550.33 116.38c239.66,0 433.95,194.28 433.95,433.95 0,239.66 -194.29,433.95 -433.95,433.95 -239.66,0 -433.95,-194.29 -433.95,-433.95 0,-239.67 194.29,-433.95 433.95,-433.95z"/>
+    </clipPath>
+     <clipPath id="id1">
+      <path d="M550.33 116.38c239.66,0 433.95,194.28 433.95,433.95 0,239.66 -194.29,433.95 -433.95,433.95 -239.66,0 -433.95,-194.29 -433.95,-433.95 0,-239.67 194.29,-433.95 433.95,-433.95z"/>
+     </clipPath>
+     <clipPath id="id2">
+      <path d="M550.33 116.38c239.66,0 433.95,194.28 433.95,433.95 0,239.66 -194.29,433.95 -433.95,433.95 -239.66,0 -433.95,-194.29 -433.95,-433.95 0,-239.67 194.29,-433.95 433.95,-433.95z"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1452636881648">
+   <path class="fil0" d="M550.33 116.38c239.66,0 433.95,194.28 433.95,433.95 0,239.66 -194.29,433.95 -433.95,433.95 -239.66,0 -433.95,-194.29 -433.95,-433.95 0,-239.67 194.29,-433.95 433.95,-433.95z"/>
+   <g style="clip-path:url(#id0)">
+    <g>
+    </g>
+    <g style="clip-path:url(#id1)">
+     <image x="-109.09" y="-99.29" width="1318.85" height="1318.85" xlink:href="Choos country_Images\Choos country_ImgID1.png"/>
+    </g>
+    <g style="clip-path:url(#id2)">
+    </g>
+   </g>
+   <path class="fil1" d="M550.33 116.38c239.66,0 433.95,194.28 433.95,433.95 0,239.66 -194.29,433.95 -433.95,433.95 -239.66,0 -433.95,-194.29 -433.95,-433.95 0,-239.67 194.29,-433.95 433.95,-433.95z"/>
+   <circle class="fil1 str0" cx="550.33" cy="550.33" r="550.34"/>
+  </g>
+ </g>
+</svg>
