@@ -1,0 +1,258 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Font/Poppins-Regular.otf);
+  }
+  body {
+    font-family: 'Poppins';
+    
+}
+.headbar
+{
+  margin:0px 100px
+}
+  .verticalLine {
+  height: 15px;
+  border-right: 2px solid red;
+  position: relative;
+  margin-top: 15px;
+  }
+  #fixa{
+    position: absolute;
+    z-index: 10;
+    left:0;
+    right:0;
+    top:100px;
+    margin-left:auto;
+    margin-right: auto;
+   }
+   .owl-nav .owl-next, .owl-nav .owl-prev {
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.owl-nav .owl-next {
+    right: 0;
+    display: flex;
+    margin-right: 2%;
+    font-size: 25px !important;
+}
+.owl-nav .owl-prev{
+    left: 0;
+    display: flex;
+    margin-left: 2%;
+    font-size: 25px !important;
+}
+.item{
+
+  width:100px;
+}
+
+
+.visacollapse:not(.collapsed) {
+  background-color: red;
+  color: white;
+}
+.caption{
+
+font-size: larger;
+text-align:center;
+color:white
+}
+.applyvisadiv{
+
+text-align:center
+}
+.firstdiv,.seconddiv,.applydiv{
+background-color: white;
+
+}
+.firstdiv{
+
+border-right: 1px solid red;
+}
+.applydiv{
+color:red;
+
+width:10%;
+  
+}
+.carousel-inner{
+height: 550px;
+}
+.carousel-item,.carousel-item img{
+
+height:100%
+}
+.populardestinations{
+margin: -70px 150px auto 150px;
+border-radius: 25px;
+}
+.trackvisabutton{
+padding: 0px 20px 25px 10px;height: 15px;margin: 5px 10px 0px 10px;background:red;color:white
+}
+.loginbutton{
+padding: 0px 20px 25px 10px;height: 15px;margin: 5px 10px 0px 10px;border-radius:3px;
+}
+.applyflykiosk{
+margin: 20px 150px;text-align: center;
+}
+.applyflykioskdivs{
+height: fit-content;
+  margin-inline-end: 1.5rem;
+  width: 16%;
+  margin: auto;
+  border-radius: 3px;
+}
+.visaprocess{
+margin: 40px 100px auto 150px
+}
+.visacollapse
+{
+border:1px solid gray;height: fit-content;
+margin-inline-end: 1.5rem;
+  width: 24%;
+  margin:auto
+}
+.visaprocessdiv2{
+border-left:1px solid grey;padding: 0px 0px 0px 20px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* media code started */
+   @media only screen and (max-width: 992px) {
+/* For mobile phones: */
+[class*="col-lg-2"] {
+  width: 50%;
+}
+.headbar
+{
+  margin:0px;
+}
+#fixa{
+    position: absolute;
+    z-index: 10;
+    left:0;
+    right:0;
+    top:40px;
+    margin-left:auto;
+    margin-right: auto;
+   }
+
+  
+   .verticalLine{
+     display:none;
+   }
+  .trackvisabutton{
+padding: 0px 20px 25px 10px;height: 15px;margin: 0px;background:red;color:white
+}
+.loginbutton{
+padding: 0px 20px 25px 10px;height: 15px;margin: 0px;border-radius:3px;
+}
+.caption{
+font-size: medium;
+text-align:center;
+color:white;
+}
+.firstdiv,.seconddiv{
+background-color: white;
+
+width: 51%;
+}
+
+.applydiv{
+background: none;
+width: 51%;
+
+}
+.applydiv a{
+  background: white;
+  
+  padding: .5rem;
+  width: 51%;
+
+  }
+
+.populardestinations{
+margin: -70px 50px auto 50px;
+border-radius: 25px;
+}
+.firstdiv{
+
+border-right: none;
+}
+.applyflykiosk{
+margin: 20px 50px 20px 50px;
+
+}
+.applyflykioskdivs{
+width: 49%;
+height: fit-content;
+margin-inline-end: 1.5rem;
+
+margin: auto;
+border-radius: 3px;
+}
+.visaprocess{
+margin: 40px 50px auto 50px
+}
+.visacollapse
+{
+border:1px solid gray;height: fit-content;
+margin:auto;
+margin-inline-end: .1rem;
+  width: 24%;
+}
+.visaprocessdiv1{
+width: 100%;
+}
+.visaprocessdiv2{
+width: 100%;
+margin-top:40px;
+border: none;
+}
+.visaprocessdiv2 .div1{
+width: 20px;
+
+}
+.visaprocessdiv2 .div2{
+padding: 0px 0px 0px 20px;
+width: 90%;
+
+}
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+.visacollapse
+{
+  border:1px solid gray;height: fit-content;
+  margin-inline-end: .1rem;
+  width: 100%;
+  margin:auto;
+}
+
+.applyflykioskdivs{
+  width: 100%;
+  height: fit-content;
+  margin-inline-end: 1.5rem;
+ 
+  margin: auto;
+  border-radius: 3px;
+}
+
+
+}

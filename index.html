@@ -1,3 +1,7 @@
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,115 +13,66 @@
 	<meta charset="UTF-8">
 
     <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="bootstrap5.0.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="bootstrap5.0.1/js/bootstrap.bundle.min.js"></script>
+    
+<script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
-   <title>Hello, world!</title>
+ <!-- Font Awesome Icon Library -->
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Flykiosk</title>
   </head>
-  <style>
-    @font-face {
-      font-family: Poppins;
-      src: url(Font/Poppins-Regular.otf);
-    }
-    body {
-      font-family: 'Poppins';
-      
-  }
-    .verticalLine {
-    height: 15px;
-    border-right: 2px solid red;
-    position: relative;
-    margin-top: 15px;
-    }
-    #fixa{
-      position: absolute;
-      z-index: 10;
-      left:0;
-      right:0;
-      top:20px;
-      margin-left:auto;
-      margin-right: auto;
-     }
-
   
-</style>
-<style>
-  .owl-nav .owl-next, .owl-nav .owl-prev {
-    position: absolute;
-    top: 48%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-}
-.owl-nav .owl-next {
-    right: 0;
-    display: flex;
-    margin-right: 2%;
-    font-size: 25px !important;
-}
-.owl-nav .owl-prev{
-    left: 0;
-    display: flex;
-    margin-left: 2%;
-    font-size: 25px !important;
-}
-.item{
-
-  width:100px;
-}
-</style>
 
 
   <body>
-    
-
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
-          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img class="bi me-2" width="100" height="50" role="img" src="images/Flykiosk logo.svg"/>
-          </a>
-    
-          
-    
-          
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-               <img src="menu Icons/Visa icon.svg" alt="visa" style="width:20px;margin-top:5px; ">
-                <li><a href="#" class="nav-link px-2 link-dark">Visa</a></li>
-
-                <div class="verticalLine"  style="margin: 15px 10px 0px 5px;"></div>
-
-                <img src="menu Icons/Passport icon.svg" alt="s" style="width:20px;margin-top:5px;">
-                <li><a href="#" class="nav-link px-2 link-dark">passport service</a></li>
-
-                <div class="verticalLine" style="margin: 15px 10px 0px 5px;"></div>
-
-                <img src="menu Icons/Attestation Icon.svg" alt="s" style="width:20px;margin-top:5px">
-                <li><a href="#" class="nav-link px-2 link-dark">Attestation</a></li>
-
-                <div class="verticalLine" style="margin: 15px 10px 0px 5px;"></div>
-
-                <img src="menu Icons/Photos icon.svg" alt="s" style="width:20px;margin-top:5px">
-                <li ><a href="#" class="nav-link px-2 link-dark">Photos</a></li>
-
-                <li style="margin:5px 10px 0px 30px;"><img src="menu Icons/choos country.svg" alt="country" style="width:30px"></li>
-                <button class="" value="Track your visa" style="padding: 0px 20px 25px 10px;height: 15px;margin: 5px 10px 0px 10px;background:red;color:white">Track your visa</button>
-                <div class="verticalLine" style="margin: 5px 10px 0px 0px;height: 25px;
-                border-right: 2px solid black;
-                position: relative;
-               " ></div>
-                <li ><button href="#" class="btn btn-outline-dark btn-sm"  >Login</button></li>
-              </ul>
-            
-          
-        </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-default">
+      <div class="container-fluid headbar" >
+        <a class="navbar-brand" href="#">  <img class="bi me-2" width="100" height="50" role="img" src="images/Flykiosk logo.svg"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-0">
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><img src="menu Icons/Visa icon.svg" alt="visa" style="width:20px;">Visa</a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><img src="menu Icons/Passport icon.svg" alt="s" style="width:20px;">passport service</a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><img src="menu Icons/Attestation Icon.svg" alt="s" style="width:20px;">Attestation</a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><img src="menu Icons/Photos icon.svg" alt="s" style="width:20px;">Photos</a></li>
+            <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"></a></li>
+            <li class="nav-item rounded mt-1 mb-1">
+              <img src="menu Icons/choos country.svg" alt="country" style="width:30px">
+            </li>
+            <li class="nav-item rounded">
+              <button class="trackvisabutton mb-1" value="Track your visa" >Track your visa</button>
+               
+            </li>
+            <li class="nav-item rounded ">
+              <div class="verticalLine" style="margin: 5px 10px 0px 0px;height: 25px;
+              border-right: 2px solid black;
+              position: relative;
+             " ></div>
+            </li>
+            <li class="nav-item rounded">
+              <button class="loginbutton mb-1 btn btn-outline-dark" value="Track your visa" >Login</button>
+               
+            </li>
+           
+          </ul>
+        </div>
       </div>
+    </nav>
 
+   
 
 
       <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin-top: -25px;">
+<div id="demo" class="carousel slide" data-bs-ride="carousel" >
 
  
     <!-- Indicators/dots -->
@@ -131,25 +86,26 @@
     <div class="carousel-inner">
      
  <div id="fixa">
-  <div class="" style="width: 50rem;margin: 100px auto auto auto;text-align:center;color:white">
-    <h3 >Find visa information for all countries</h3>
-    <h6>Simplifying Travel around the world</h6>
+  <div class="caption align-items-center justify-content-center" >
+    <span >Find visa information for all countries</span><br>
+    <span>Simplifying Travel around the world</span>
 </div>
 
-<div class="row d-flex " style="width: 40rem;margin: 0px auto auto auto;text-align:center">
+<div class="row d-flex applyvisadiv align-items-center justify-content-center" >
 
-  <div class="col-lg-4 col-md-4" style="background:white;padding:2px">
+  <div class="col-lg-2 col-md-2 mb-2 p-2 firstdiv" >
     <select style="border: none;background: none;"><option>Where am I from</option></select>
-    <span class="verticalLine"  style="padding-left: 24px;"></span>
+  
   </div>
-  <div class="col-lg-5 col-md-5" style="background:white;padding:2px">
+  <div class="col-lg-2 col-md-2 mb-2 p-2  seconddiv" >
     <select style="border: none;background: none;"><option>Where am I Going</option></select>
 
   </div>
-  
-  <div class="col-lg-2 col-md-2 card" style="background:white;padding:2px;margin-left: 10px;border-radius: 2px;color:red">
-   <a>Apply visa</a>
-  </div>
+  <div class="col-lg-2 col-md-2 ms-2 mb-2 p-2 applydiv" >
+    <a >Apply visa</a>
+
+ 
+</div>
 
 
 </div>
@@ -159,13 +115,13 @@
 
   </div>
       <div class="carousel-item active">
-        <img src="images/Slider 01.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+        <img src="images/Slider 01.jpg" class="carouselimage" alt="Los Angeles" class="d-block" style="width:100%">
       </div>
       <div class="carousel-item">
-        <img src="images/Slider 01.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <img src="images/Slider 01.jpg" class="carouselimage" alt="Chicago" class="d-block" style="width:100%">
       </div>
       <div class="carousel-item">
-        <img src="images/Slider 01.jpg" alt="New York" class="d-block" style="width:100%">
+        <img src="images/Slider 01.jpg" class="carouselimage"  alt="New York" class="d-block" style="width:100%">
       </div>
     </div>
     
@@ -173,15 +129,14 @@
   </div>
 
  
- <div style="background:whitesmoke;height:450px">
+ <div style="background:whitesmoke;height: auto;padding-bottom:10px">
   <!-- popular destinations-->
-  <section >
-    <div class="card" style="width: 60rem;margin: -70px auto auto auto;border-radius: 25px;">
-      <h6 style="width: 50rem;margin: 20px auto auto auto;text-align:center;">Popular Destinations </h6>
+  
+    <div class="card populardestinations" >
+      <h6 style="width:auto;margin: 20px auto auto auto;text-align:center;">Popular Destinations </h6>
       <div class="card-body">
-        <div class="owl-carousel owl-theme" style="
-        text-align: -webkit-center;
-    ">
+        <div class="owl-carousel owl-theme ">
+    
           <div class="item" >
               <h4><img src="Icons/99_ Approval.svg" alt="image"  /></h4>
           </div>
@@ -192,99 +147,99 @@
               <h4><img src="Icons/Speed.svg" alt="image" /></h4>
           </div>
           <div class="item">
-              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/Customer.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/Customer.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/Speed.svg" alt="image" /></h4>
-          </div>
-          <div class="item">
-              <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
-          </div>
+            <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/Customer.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/Customer.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/Speed.svg" alt="image" /></h4>
+        </div>
+        <div class="item">
+            <h4><img src="Icons/99_ Approval.svg" alt="image" /></h4>
+        </div>
       </div>
       </div>
     </div>
-  </section>
-
-  <section>
-    <h6 style="width: 60rem;margin: 40px auto auto auto;text-align:center;">Why Apply with Flykiosk.com? </h6>
-    <div class="row d-flex " style="width: 60rem;margin: 40px auto auto auto;">
-
-      <div class="col-lg-2 col-md-2" style="background:white;">
-        <div class="row d-flex " >
-          <div class="col-lg-3 col-md-3" style="background:white;width:auto">
-            <img src="Icons/Speed.svg">
-
-          </div>
-          <div class="col-lg-10 col-md-10" style="background:white;width:auto">
-         <span> Speed &</span><br>
-         <span>  Simplicity</span>
-            
-                      </div>
-        </div>
-        </div>
-&nbsp;
-        <div class="col-lg-3 col-md-3" style="background:white;">
-          <div class="row d-flex " >
-            <div class="col-lg-2 col-md-2" style="background:white;width:auto">
-            
-              <img src="Icons/99_ Approval.svg">
-            </div>
-            <div class="col-lg-10 col-md-10" style="background:white;width:auto">
-              99% Approval <br>History
+ 
+  
+    <h6 style="text-align:center;margin-top:40px">Why Apply with Flykiosk.com? </h6>
+    
+  
+    
+        <div class="row d-flex  applyflykiosk" >
+      
+       
+          <div class="col-lg-2 col-md-2 mb-2  applyflykioskdivs" style="background:white;">
+            <div class="row d-flex " >
+              <div class="col-lg-2 col-md-2" style="background:white;width:auto">
               
-                        </div>
-          </div>
-          </div>
-
-          &nbsp;
-          <div class="col-lg-3 col-md-3" style="background:white;">
+                <img src="Icons/99_ Approval.svg">
+              </div>
+              <div class="col-lg-10 col-md-10" style="background:white;width:auto;">
+                99% Approval <br>History
+                
+                          </div>
+            </div>
+            </div>
+          <div class="col-lg-2 col-md-2 mb-2  applyflykioskdivs" style="background:white;">
+            <div class="row d-flex " >
+              <div class="col-lg-2 col-md-2" style="background:white;width:auto">
+              
+                <img src="Icons/99_ Approval.svg">
+              </div>
+              <div class="col-lg-10 col-md-10" style="background:white;width:auto;">
+                99% Approval <br>History
+                
+                          </div>
+            </div>
+            </div>
+  
+          
+          <div class="col-lg-2 col-md-2  mb-2  applyflykioskdivs" style="background:white;">
             <div class="row d-flex " >
               <div class="col-lg-2 col-md-2" style="background:white;width:auto">
               <img src="Icons/Customer.svg">
     
               </div>
-              <div class="col-lg-10 col-md-10" style="background:white;width:auto">
+              <div class="col-lg-10 col-md-10" style="background:white;width:auto;">
                 Customer <br>Support
                 
                           </div>
             </div>
             </div>
+            
 
-            &nbsp;
-            <div class="col-lg-3 col-md-3" style="background:white;">
+            <div class="col-lg-2 col-md-2  mb-2  applyflykioskdivs" style="background:white;">
               <div class="row d-flex " >
                 <div class="col-lg-2 col-md-2" style="background:white;width:auto">
-                  <img src="Icons/Safe_Secure.svg">
+                <img src="Icons/Customer.svg">
       
                 </div>
-                <div class="col-lg-10 col-md-10" style="background:white;width:auto">
-                  Safe &
-                  Secure
+                <div class="col-lg-10 col-md-10" style="background:white;width:auto;">
+                  Customer <br>Support
                   
                             </div>
               </div>
               </div>
       
       </div>
-  </section>
+    
   
 </div>
 
@@ -292,97 +247,266 @@
 
 
       
-  <div class="row d-flex " style="width: 60rem;margin: 40px auto auto auto;" >
+  <div class="row d-flex visaprocess" >
  
-    <div class="col-lg-7 col-md-7 ">
-      <h6 style="margin: auto 20% auto auto;text-align: center;">Visa process</h6>
+    <div class="col-lg-9 col-md-9 visaprocessdiv1 ">
+      <h6 style="text-align: center;">Visa process</h6>
       <br>
       <div class="row d-flex ">
-    <a href="#evisa"  class="col-lg-2 col-md-2 me-2 card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">E-visa</a>
-    <a href="#visaonarrival"  class="col-lg-2 col-md-2 me-2 card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">Visa on Arrival</a>
-    <a href="#stampingvisa"  class="col-lg-2 col-md-2 me-2 card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">Stamping Visa</a>
-    <a href="#scheghenvisa"  class="col-lg-2 col-md-2  card btn btn-outline-default visacollapse" data-bs-toggle="collapse" style="border:1px solid gray;height: fit-content;width: fit-content;">Scheghen Visa</a>
+    <a href="#evisa"  class="col-lg-2 col-md-2  mb-2 card btn btn-outline-default visacollapse collapsed" data-bs-toggle="collapse" >E-visa</a>
+    <a href="#visaonarrival"  class="col-lg-2 col-md-2 mb-2  card btn btn-outline-default visacollapse collapsed" data-bs-toggle="collapse" >Visa on Arrival</a>
+    <a href="#stampingvisa"  class="col-lg-2 col-md-2 mb-2  card btn btn-outline-default visacollapse collapsed" data-bs-toggle="collapse" >Stamping Visa</a>
+    <a href="#scheghenvisa"  class="col-lg-2 col-md-2 mb-2  card btn btn-outline-default visacollapse" data-bs-toggle="collapse" >Scheghen Visa</a>
        
-      <div id="evisa" class="collapse" style="margin: 20px auto auto -10px;text-align: center;">
+    <div id="evisa" class="collapse" style="margin: 20px auto auto -10px;text-align: center;">
+      <div class="row d-flex">
+
+        <div  class="col-lg-2 col-md-2 mb-2">
+          <div class="card">
+            <div class="card-body">
+              <img src="Icons/Customer.svg">
+              <br>  <br>
+              <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step1</a>
+              <hr>
+              <p class="card-text" style="font-size:small"><br>Know your visa type</p>
+   
+            </div>
+          </div>
+        </div>
+        
+        <div  class="col-lg-2 col-md-2 mb-2">
+          <div class="card">
+            <div class="card-body">
+              <img src="Icons/Customer.svg">
+              <br>  <br>
+              <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step2</a>
+              <hr>
+              <p class="card-text" style="font-size:small"><br>Complete your <br>Application</p>
+            </div>
+          </div>
+        </div>
+        
+        <div  class="col-lg-2 col-md-2 mb-2 ">
+          <div class="card">
+            <div class="card-body">
+              <img src="Icons/Customer.svg">
+              <br>  <br>
+              <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step3</a>
+              <hr>
+              <p class="card-text" style="font-size:small"><br><br>Pay online</p>
+            </div>
+          </div>
+        </div>
+       
+    
+    <div  class="mt-4" >
+      <a href="" class="btn btn-danger " style="padding:3px 15px;border-radius:3px" >Apply now</a>
+      </div>
+  </div>
+  </div>
+  <div id="visaonarrival" class="collapse" style="margin: 20px auto auto -10px;text-align: center;">
+    <div class="row d-flex">
+
+      <div  class="col-lg-2 col-md-2 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step1</a>
+            <hr>
+            <p class="card-text" style="font-size:small"><br>Know your visa type</p>
+ 
+          </div>
+        </div>
+      </div>
+      
+      <div  class="col-lg-2 col-md-2 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step2</a>
+            <hr>
+            <p class="card-text" style="font-size:small"><br>Complete your <br>Application</p>
+          </div>
+        </div>
+      </div>
+      
+      <div  class="col-lg-2 col-md-2 mb-2 ">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step3</a>
+            <hr>
+            <p class="card-text" style="font-size:small"><br><br>Pay online</p>
+          </div>
+        </div>
+      </div>
+      <div  class="col-lg-2 col-md-2 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="Icons/Customer.svg">
+            <br>  <br>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step4</a>
+            <hr>
+            <p class="card-text" style="font-size:small"><br>Shedule your<br> Appoinment</p>
+          </div>
+        </div>
+      </div>
+    
+  <div  class="mt-4" >
+    <a href="" class="btn btn-danger" style="padding:3px 15px;border-radius:3px" >Apply now</a>
+    </div>
+</div>
+</div>
+
+<div id="stampingvisa" class="collapse" style="margin: 20px auto auto -10px;text-align: center;">
+  <div class="row d-flex">
+
+    <div  class="col-lg-2 col-md-2 mb-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="Icons/Customer.svg">
+          <br>  <br>
+          <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step1</a>
+          <hr>
+          <p class="card-text" style="font-size:small"><br>Know your visa type</p>
+
+        </div>
+      </div>
+    </div>
+    
+    <div  class="col-lg-2 col-md-2 mb-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="Icons/Customer.svg">
+          <br>  <br>
+          <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step2</a>
+          <hr>
+          <p class="card-text" style="font-size:small"><br>Complete your <br>Application</p>
+        </div>
+      </div>
+    </div>
+    
+    <div  class="col-lg-2 col-md-2 mb-2 ">
+      <div class="card">
+        <div class="card-body">
+          <img src="Icons/Customer.svg">
+          <br>  <br>
+          <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step3</a>
+          <hr>
+          <p class="card-text" style="font-size:small"><br><br>Pay online</p>
+        </div>
+      </div>
+    </div>
+    <div  class="col-lg-2 col-md-2 mb-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="Icons/Customer.svg">
+          <br>  <br>
+          <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step4</a>
+          <hr>
+          <p class="card-text" style="font-size:small"><br>Shedule your<br> Appoinment</p>
+        </div>
+      </div>
+    </div>
+    <div  class="col-lg-2 col-md-2 mb-2">
+      <div class="card">
+        <div class="card-body">
+          <img src="Icons/Customer.svg">
+           <br>  <br>
+          <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step5</a>
+          <hr>
+          <p class="card-text" style="font-size:small">Attend your<br>interview or<br>Biometric </p>
+        </div>
+      </div>
+    </div>
+<div  class="mt-4" >
+  <a href="" class="btn btn-danger" style="padding:3px 15px;border-radius:3px" >Apply now</a>
+  </div>
+</div>
+</div>
+      <div id="scheghenvisa" class="collapse show" style="margin: 20px auto auto -10px;text-align: center;">
         <div class="row d-flex">
 
-        <div  class="col-lg-3 col-md-3 mb-2">
+        <div  class="col-lg-2 col-md-2 mb-2">
         <div class="card">
           <div class="card-body">
             <img src="Icons/Customer.svg">
             <br>  <br>
-            <a href="" class="btn btn-danger">step1</a>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step1</a>
             <hr>
+            <p class="card-text" style="font-size:small"><br>Know your visa type</p>
+ 
           </div>
         </div>
       </div>
       
-      <div  class="col-lg-3 col-md-3 mb-2">
+      <div  class="col-lg-2 col-md-2 mb-2">
         <div class="card">
           <div class="card-body">
             <img src="Icons/Customer.svg">
             <br>  <br>
-            <a href="" class="btn btn-danger">step2</a>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step2</a>
             <hr>
+            <p class="card-text" style="font-size:small"><br>Complete your <br>Application</p>
           </div>
         </div>
       </div>
       
-      <div  class="col-lg-3 col-md-3 mb-2 ">
+      <div  class="col-lg-2 col-md-2 mb-2 ">
         <div class="card">
           <div class="card-body">
             <img src="Icons/Customer.svg">
             <br>  <br>
-            <a href="" class="btn btn-danger">step3</a>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step3</a>
             <hr>
+            <p class="card-text" style="font-size:small"><br><br>Pay online</p>
           </div>
         </div>
       </div>
-      <div  class="col-lg-3 col-md-3 mb-2">
+      <div  class="col-lg-2 col-md-2 mb-2">
         <div class="card">
           <div class="card-body">
             <img src="Icons/Customer.svg">
             <br>  <br>
-            <a href="" class="btn btn-danger">step4</a>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step4</a>
             <hr>
+            <p class="card-text" style="font-size:small"><br>Shedule your<br> Appoinment</p>
           </div>
         </div>
       </div>
-      <div  class="col-lg-3 col-md-3 mb-2">
+      <div  class="col-lg-2 col-md-2 mb-2">
         <div class="card">
           <div class="card-body">
             <img src="Icons/Customer.svg">
              <br>  <br>
-            <a href="" class="btn btn-danger">step5</a>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step5</a>
             <hr>
+            <p class="card-text" style="font-size:small">Attend your<br>interview or<br>Biometric </p>
           </div>
         </div>
       </div>
-      <div  class="col-lg-3 col-md-3 mb-2">
+      <div  class="col-lg-2 col-md-2 mb-2">
         <div class="card">
           <div class="card-body">
             <img src="Icons/Customer.svg">
             <br>  <br>
-            <a href="" class="btn btn-danger">step6</a>
+            <a href="" class="btn btn-danger"  style="border-radius:3px;padding:0px 10px">step6</a>
             <hr>
+            <p class="card-text" style="font-size:small">Passport<br>Delivered to<br>your Doorstep</p>
           </div>
        
         </div>
       </div>
-      <div  style="width: 60rem;margin: 40px auto auto auto;" >
-        <a href="" class="btn btn-danger">Apply now</a>
+      <div  class="mt-4" >
+        <a href="" class="btn btn-danger" style="padding:3px 15px;border-radius:3px" >Apply now</a>
         </div>
     </div>
     </div>
     
-      <div id="visaonarrival" class="collapse" style="margin: 20px auto auto auto;text-align: center;">
-        <div  class="col-lg-12 col-md-12">   
-        <div class="card">
-          <div class="card-body">wwwwdfdfddd</div>
-        </div>
-      </div>
-      
-    </div>
+     
     
 
     
@@ -390,7 +514,7 @@
   </div>
   <!--<div class="col-lg-1 col-md-1 "  style="border-left: 1px solid grey;width:0px;height:450px;margin-top: 0px"> </div>-->
 
-  <div class="col-lg-4 col-md-4  " style="border-left:1px solid grey">
+  <div class="col-lg-3 col-md-3 visaprocessdiv2 " >
     <h6 >Customer Service at its finest</h6>
     <br>
     <div class="row d-flex " >
@@ -398,13 +522,18 @@
         <div class="col-lg-11 col-md-11" >
 
           <div class="row d-flex">
-            <div class="col-lg-2 col-md-2" ><img src="Icons/Customer.svg"></div>
-            <div class="col-lg-10 col-md-10" >
+            <div class="col-lg-2 col-md-2 div1" ><img src="Icons/Customer.svg"></div>
+            <div class="col-lg-10 col-md-10 div2" style="padding: 0px 0px 0px 20px;" >
 
-              <h5 style="color:red">Excellent Service</h5>
-              <h6>Sure Name</h6>
-              <span>Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
-
+              <h5 style="color:red;font-size:large">Excellent Service</h5>
+              <h6 style="font-size:medium">Sure Name</h6>
+              <span style="font-size:smaller">Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
+              <br>
+              <span class="fa fa-star checked" style="color: orange;"></span>
+              <span class="fa fa-star checked" style="color: orange;"></span>
+              <span class="fa fa-star checked" style="color: orange;"></span>
+              <span class="fa fa-star checked" style="color: orange;"></span>
+              <span class="fa fa-star checked" style="color: orange;"></span>
             </div>
 
             </div>
@@ -419,13 +548,18 @@
           <div class="col-lg-11 col-md-11" >
   
             <div class="row d-flex">
-              <div class="col-lg-2 col-md-2" ><img src="Icons/Customer.svg"></div>
-              <div class="col-lg-10 col-md-10" >
+              <div class="col-lg-2 col-md-2 div1" ><img src="Icons/Customer.svg"></div>
+              <div class="col-lg-10 col-md-10 div2" style="padding: 0px 0px 0px 20px;" >
   
-                <h5 style="color:red">Excellent Service</h5>
-                <h6>Sure Name</h6>
-                <span>Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
-
+                <h5 style="color:red;font-size:large">Excellent Service</h5>
+                <h6 style="font-size:medium">Sure Name</h6>
+                <span style="font-size:smaller">Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
+                <br>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
+                <span class="fa fa-star checked" style="color: orange;"></span>
               </div>
   
               </div>
@@ -440,12 +574,20 @@
             <div class="col-lg-11 col-md-11" >
     
               <div class="row d-flex">
-                <div class="col-lg-2 col-md-2" ><img src="Icons/Customer.svg"></div>
-                <div class="col-lg-10 col-md-10" >
-                  <h5 style="color:red">Excellent Service</h5>
-                  <h6>Sure Name</h6>
-                  <span>Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
-  
+                <div class="col-lg-2 col-md-2 div1" ><img src="Icons/Customer.svg"></div>
+                <div class="col-lg-10 col-md-10 div2" style="padding: 0px 0px 0px 20px;" >
+                  <h5 style="color:red;font-size:large">Excellent Service</h5>
+                  <h6 style="font-size:medium">Sure Name</h6>
+                  <span style="font-size:smaller">Contray to popular belief,Lorem Ipsum is got simply random text.it has roots in apiece of classical Latin literature from 45 Bc,making it over 2000 years old</span>
+                  <br>
+                  <span class="fa fa-star checked" style="color: orange;"></span>
+                  <span class="fa fa-star checked" style="color: orange;"></span>
+                  <span class="fa fa-star checked" style="color: orange;"></span>
+                  <span class="fa fa-star checked" style="color: orange;"></span>
+                  <span class="fa fa-star checked" style="color: orange;"></span>
+                  <div  style="margin: 20px auto auto auto;" >
+                    <a href="" class="btn btn-danger" style="border-radius:3px;padding:0px 20px">see all</a>
+                    </div>
                 </div>
     
                 </div>
@@ -454,9 +596,7 @@
         
             </div>
             
-            <div  style="margin: 40px auto auto auto;text-align: center;" >
-              <a href="" class="btn btn-danger">see all</a>
-              </div>
+            
         </div>
              
 </div>
@@ -465,38 +605,47 @@
 
 </div>
 
-<div>
-  sadfeasf
-</div>
 
-
-<script>
-  $(document).ready(function(){
-	$(".visacollapse").click(function(){
+  <footer class="py-3 my-4" style="background:grey">
     
-		$('.collapse').collapse('hide');
-	});
-});
-</script>
+    <div style="background-color: black;">
+  
+    <ul class="nav   mb-3" style="margin:0px 150px">
+      <li >
+        <u1>
+          <li class="nav-item" ><a href="#" class="nav-link px-2 " style="color:white">We accept></a></li>
+          <li class="nav-item " ><a href="#" class="nav-link px-2 " style="color:white;background-color: white;">Rupay</a></li>
+          <li class="nav-item" ><a href="#" class="nav-link px-2 " style="color:white;background-color: white;">upi</a></li>
+          <li class="nav-item" ><a href="#" class="nav-link px-2 " style="color:white;background-color: white;">visa</a></li>
+          <li class="nav-item" ><a href="#" class="nav-link px-2 " style="color:white;background-color: white;">mastercard</a></li>
+          <li class="nav-item" ><a href="#" class="nav-link  " style="color:white;background-color: white;">netbanking</a></li>
+        
+        </u1>
+      </li>
+      <li style="margin:auto">
+        <ul class="nav "  >
+      <li class="nav-item " ><a href="#" class="nav-link px-2 " style="color:white">About Us</a></li>
+      <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 " style="color:white">Offices</a></li>
+      <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 " style="color:white">Terms of use</a></li>
+      <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 " style="color:white">Privacy Policy</a></li>
+      <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 " style="color:white">Support</a></li>
+      <li class="nav-item rounded"><a href="#" class="nav-link px-2 link-dark"><div class="verticalLine" style="margin: 5px 0px 0px 0px;"></div></a></li>
+   
+      <li class="nav-item"><a href="#" class="nav-link px-2 " style="color:white">Direct payment</a></li>
+    </ul>
+    </li>
+    </ul>
+  </div>
+    <p class="text-center " style="color:whitesmoke">© 2022 Flykiosk pvt Ltd.All rights Reserved</p>
+   
+  </footer>
 
-
-
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-    <!-- Owl Carousel -->
+   
+ <!-- Owl Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- custom JS code after importing jquery and owl -->
     <script type="text/javascript">
@@ -526,5 +675,17 @@
             }
         })
     </script>
+    <script>
+      $(document).ready(function(){
+      $(".visacollapse").click(function(){
+        
+        $('.collapse').collapse('hide');
+      });
+    
+     
+    });
+    
+    </script>
+    
   </body>
 </html>
